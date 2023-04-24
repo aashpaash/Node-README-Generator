@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aashpaash/Node-REDAME-Generator"
+    "url": "https://github.com/aashpaash/Node-READAME-Generator"
   },
-  "bugs":"https://github.com/aashpaash/Node-REDAME-Generator/issues",
+  "bugs":"https://github.com/aashpaash/Node-READAME-Generator/issues",
   "keywords": [
     "node, README, mark down"
   ],
