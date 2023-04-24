@@ -5,20 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"",
-    "build":""
+    "start": "",
+    "build": ""
   },
   "repository": {
     "type": "git",
-    "url": "xc"
+    "url": "https://github.com/aashpaash/Node-README-Generator/"
   },
-  "bugs":"https://github.com/aashpaash/Node-README-Generator/issues",
+  "bugs": "https://github.com/aashpaash/Node-README-Generator/issues",
   "keywords": [
     "node, README, mark down"
   ],
-  "dependencies": {
-    "inquier": "8.2.4"
-  },
   "author": "AP",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
