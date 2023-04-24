@@ -28,7 +28,7 @@ const questions = [{
     type: "input",
     name: "installation",
     message: "What dependencies are needed to run this project?",
-    default: "npm i",
+    default: "inquirer 8.2.4",
 
     type: "input",
     name: "contributors",
@@ -58,10 +58,8 @@ const questions = [{
 }];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    return fs.writeFile(fileName, data, function(err) {
-        console.log(fileName)
-        console.log(data)
+function writeREADME(fileName, data) {
+    return fs.writeFile('README', fileName, data, function(err) {
         if (err) {
            return console.log(err);
         } else {
