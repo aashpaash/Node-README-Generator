@@ -1,16 +1,24 @@
 {
-  "name": "node-readme-generator",
+  "name": "develop",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Description",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":""
+    "start":"",
+    "build":""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aashpaash/Node-REDAME-Generator"
+  },
+  "bugs":"https://github.com/aashpaash/Node-REDAME-Generator/issues",
+  "keywords": [
+    "node, README, mark down"
+  ],
   "dependencies": {
-    "inquirer": "^9.2.0"
-  }
+    "inquier": "8.2.4"
+  },
+  "author": "AP",
+  "license": "ISC"
 }

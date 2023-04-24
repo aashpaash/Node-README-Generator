@@ -59,7 +59,7 @@ const questions = [{
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, function(err) {
+    return fs.writeFile(fileName, data, function(err) {
         console.log(fileName)
         console.log(data)
         if (err) {
@@ -73,7 +73,10 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(function);
+    .then(responses); {
+        console.log("README initialized");
+        
+    }
 }
 
 // Function call to initialize app
