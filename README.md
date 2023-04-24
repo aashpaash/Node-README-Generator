@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Professional README Generator
 
 ## User Story
@@ -27,3 +28,6 @@ THEN I am taken to the corresponding section of the README
 
 
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+=======
+# Node-READAME-Generator
+>>>>>>> a9925895d3dcbfb0a83d81c320dcd601261b3fe2
