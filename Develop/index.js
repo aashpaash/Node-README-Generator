@@ -75,9 +75,11 @@ function init() {
     inquirer.prompt(questions)
     .then(responses); {
         console.log("README initialized");
-        
+
     }
 }
 
 // Function call to initialize app
 init();
+
+// module.exports = function();
