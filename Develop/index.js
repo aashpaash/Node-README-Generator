@@ -2,7 +2,8 @@
 const inquire = require("inquirer");
 const fs = require('fs');
 const util = require('util');
-//const generateMarkdown = require('./generateMarkdown');
+const path = require('path');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 const generateMarkdown = require('./utils/generateMarkdown');
 const { default: inquirer } = require("inquirer");
@@ -14,7 +15,7 @@ const questions = [{
 
     type: "input",
     name: "description",
-    message: "Please decribe your project",
+    message: "Please decribe your project.",
     
     type: "input",
     name: "objective",
