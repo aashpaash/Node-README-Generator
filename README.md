@@ -1,14 +1,23 @@
 # Professional README Generator
+## Table of Contents
+- [Description](#Description)
+- [Installation](#Installation)
+- [Screenshots](#Screenshots)
+- [License](#License)
+
+## Description
+```md
+Generate a README file by using a command-line application to generate one.
 
 ## User Story
-
+```md
 AS A developer<br>
 I WANT a README generator<br>
 SO THAT I can quickly create a professional README for a new project<br>
 
 
 ## Acceptance Criteria
-
+```md
 GIVEN a command-line application that accepts user input <br>
 WHEN I am prompted for information about my application repository <br>
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions<br>
@@ -25,5 +34,22 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents<br>
 THEN I am taken to the corresponding section of the README<br>
 
+## Screenshots
+![Screenshots](
 
+## Installation
+```md
+node index.js
+
+GitHub link: https://github.com/aashpaash/<br>
+Deployed link: https://aashpaash.github.io/<br>
+
+## Sources
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+
+## License
+![License Badge](https://img.shields.io/badge/HTML-HTML-yellow)
+![License Badge](https://img.shields.io/badge/JavaScript-JS-purple)
+![License Badge](https://img.shields.io/badge/jQuery-jQ-blue)
+![License Badge](https://img.shields.io/badge/Nodejs-Node-pink)
+![License Badge](https://img.shields.io/badge/Inquirer-Inquirer-white)
