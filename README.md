@@ -6,18 +6,18 @@
 - [License](#License)
 
 ## Description
-```md
+
 Generate a README file by using a command-line application to generate one.
 
 ## User Story
-```md
+
 AS A developer<br>
 I WANT a README generator<br>
 SO THAT I can quickly create a professional README for a new project<br>
 
 
 ## Acceptance Criteria
-```md
+
 GIVEN a command-line application that accepts user input <br>
 WHEN I am prompted for information about my application repository <br>
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions<br>
@@ -35,14 +35,14 @@ WHEN I click on the links in the Table of Contents<br>
 THEN I am taken to the corresponding section of the README<br>
 
 ## Screenshots
-![Screenshots](
+![Screenshots]([NODE.webm](https://user-images.githubusercontent.com/115119317/236399460-6b83ec8e-59b9-4115-a641-d027ad725e36.webm)
+
 
 ## Installation
-```md
 node index.js
 
-GitHub link: https://github.com/aashpaash/<br>
-Deployed link: https://aashpaash.github.io/<br>
+GitHub link: https://github.com/aashpaash/Node-README-Generator<br>
+Deployed link:https://aashpaash.github.io/Node-README-Generator/<br>
 
 ## Sources
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
